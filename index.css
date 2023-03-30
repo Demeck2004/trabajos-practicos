@@ -28,17 +28,24 @@ footer{
     width: 100%;
     background-color: blanchedalmond;
     padding: 0 10% 0 10%;
-
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 60px;
 }
 .contenedor{
-    height: 800px;
+
     width: 80%;
     margin: auto;
     background-color: darkgoldenrod;
     background-image: -o-linear-gradient();
+    padding: 20px;
+   
 }
 .flex{
     display: flex;
+}
+.sp{
+    justify-content: space-around;
 }
 .separador{
     justify-content: space-between;
@@ -48,7 +55,7 @@ footer{
     margin-bottom: 10px;
 
 }
-.fila .tajeta{
+.fila .tarjeta{
     height: 450px;
     width: 30%;
     border-radius: 14px;
@@ -56,6 +63,8 @@ footer{
     color: aliceblue;
     padding: 14px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .tarjeta .img{
     width: 100%;
@@ -80,9 +89,15 @@ footer{
     box-shadow: 0px 0px 15px rgb(151, 145, 133);
 
 }
-.tarjeta .p{
+.tarjeta .parrafo{
     line-height: 18pt;
     margin-top: 10px;
+    color:white;
+}
+
+.tarjeta .titulo{
+    color:wheat;
+    font-size: 18px;
 
 
 }
